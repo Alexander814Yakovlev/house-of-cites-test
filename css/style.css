@@ -172,7 +172,7 @@ button:hover {
 .mobile__menu {
     padding: 60px 0;
     margin-top: -40px;
-    display: none;
+    display: none !important;
     background-color: var(--dark-grey);
     display: flex;
     flex-direction: column;
@@ -202,7 +202,7 @@ button:hover {
     align-items: center;
 }
 
-.header__contact_mobile> .header__contact_link>h3 {
+.header__contact_mobile>.header__contact_link>h3 {
     font-size: 20px !important;
 }
 
