@@ -172,7 +172,7 @@ button:hover {
 .mobile__menu {
     padding: 60px 0;
     margin-top: -40px;
-    display: none !important;
+    display: none;
     background-color: var(--dark-grey);
     display: flex;
     flex-direction: column;
